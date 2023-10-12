@@ -12,4 +12,4 @@ If the app does not work, you may need to run the following command to help musi
 
 ## Usage
 
-`python interval_trainer.py`
+`python app.py`
