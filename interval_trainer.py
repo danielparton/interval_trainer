@@ -1,15 +1,13 @@
 import numpy as np
 import tempfile
 from copy import deepcopy
-from music21 import converter, midi
+from music21 import midi
 from music21.note import Note
 from music21.pitch import Pitch
 from music21.interval import DiatonicInterval
-from music21.analysis.enharmonics import EnharmonicSimplifier
 from music21.stream import Stream, Measure
 from music21.clef import TrebleClef, BassClef
 from music21.meter import TimeSignature
-from music21.style import Style
 import PySimpleGUI as sg
 
 appname = 'interval_trainer'
